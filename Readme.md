@@ -33,14 +33,6 @@ pip install -r requirements.txt
 # Churn Distribution  
 ![Churn Distribution](outputs/churn_distribution.png)
 
-# Feature Importance  
-![Feature Importance](outputs/feature_importance.png)
-
-# Confusion Matrix  
-![Confusion Matrix](outputs/confusion_matrix.png)
-
----
-
 # How to Run This Project
 
 1. Clone the repository:
