@@ -1,40 +1,72 @@
 # Customer Churn Prediction
 
-This project focuses on building a machine learning model to predict whether a telecom customer is likely to churn. The model uses customer behavior, demographics, and service usage data to classify churn status.
+This project aims to predict whether a customer will churn (i.e., discontinue a service) using machine learning models based on customer behavior, demographics, and service usage. The insights can help businesses retain customers by identifying risk factors and taking proactive steps.
 
-Project Structure
+# Project Overview
 
-# Problem Statement
+- Objective: Predict customer churn and identify key churn factors
+- Dataset: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- Tech Stack: Python, Pandas, Scikit-learn, Seaborn, Matplotlib
+- Output: Churn predictions, evaluation report, visualizations, and trained model saved in "outputs/" folder
 
-Customer churn is a critical issue for telecom companies. Predicting whether a customer is at risk of leaving helps businesses take proactive retention actions. The goal of this project is to build a predictive model that identifies customers who are likely to churn.
+# Libraries Used
 
-# Dataset
+- "pandas"
+- "numpy"
+- "seaborn"
+- "matplotlib"
+- "scikit-learn"
+- "joblib"
 
-Source: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-Target Variable: `Churn` (Yes/No)
+# Install all dependencies:
 
-# Tools & Technologies Used
+pip install -r requirements.txt
 
-Programming Language: Python
-Libraries:
-   `pandas`, `numpy` for data manipulation
-   `matplotlib`, `seaborn` for data visualization
-   `scikit-learn` for model building
-   `joblib` for model saving
+# Key Insights
+
+- Customers with month-to-month contracts, electronic check payment, or without tech support are more likely to churn.
+- Tenure, monthly charges, and service features significantly influence churn likelihood.
+- The trained model achieves high precision and recall, helping reduce customer loss.
+
+# Sample Visualizations
+
+# Churn Distribution  
+![Churn Distribution](outputs/churn_distribution.png)
+
+# Feature Importance  
+![Feature Importance](outputs/feature_importance.png)
+
+# Confusion Matrix  
+![Confusion Matrix](outputs/confusion_matrix.png)
 
 ---
 
-# Model Building
-
-Model: Random Forest Classifier
-Metric: Classification report (Precision, Recall, F1-score)
-Data Split: 70% Train / 30% Test
-
----
-
-# How to Run
+# How to Run This Project
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/haroonbashi2514/Customer-churn-prediction.git
-   cd Customer-churn-prediction
+
+   git clone https://github.com/your-username/Customer-Churn-Prediction.git
+   cd Customer-Churn-Prediction
+
+2. Install dependencies:
+   
+   pip install -r requirements.txt
+   
+3. Run the prediction script:
+   
+   python churn_prediction.py
+
+4. View the results in the `outputs/` folder.
+
+
+# Future Improvements
+
+- Add ensemble models and hyperparameter tuning
+- Deploy the model using Streamlit or Flask
+- Integrate customer retention recommendations
+
+# Author
+Haroon Bashi
+[GitHub](https://github.com/haroonbashi2514) | [LinkedIn](https://www.linkedin.com/in/haroon-bashi-3aa683215)
+
+⭐️ Star this repo if you found it helpful!
