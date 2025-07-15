@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/Customer-Churn-Prediction.git
+   git clone https://github.com/haroonbashi2514/Customer-Churn-Prediction.git
    cd Customer-Churn-Prediction
 
 2. Install dependencies:
